@@ -19,7 +19,8 @@ no_index:
     - inc
     - t
 requires:
-  CHI: 0
+  CHI: 0.081
+  CHI::Driver::Memcached: 0
   Cache::Memcached::Fast: 0
   perl: 5.6.0
-version: 0.01
+version: 0.02
